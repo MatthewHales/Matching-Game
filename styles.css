@@ -1,0 +1,13 @@
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.card.matched {
+    background-color: green;
+    cursor: default;
+}
